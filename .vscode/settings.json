@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "[sql]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+  },
+  "[sqlite]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+  }
+}
