@@ -1,0 +1,6 @@
+CREATE TABLE subjects (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    subject TEXT NOT NULL,
+    prof_id INTEGER NOT NULL UNIQUE,
+    FOREIGN KEY(prof_id) REFERENCES profs(id)
+);
